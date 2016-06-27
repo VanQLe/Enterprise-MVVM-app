@@ -1,0 +1,13 @@
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\bin\Debug\EnterpriseMVVM.DesktopClient.Tests.dll
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\bin\Debug\EnterpriseMVVM.DesktopClient.Tests.pdb
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\bin\Debug\EnterpriseMVVM.DesktopClient.exe
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\bin\Debug\EnterpriseMVVM.Windows.dll
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\bin\Debug\EnterpriseMVVM.Windows.Test.dll
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\bin\Debug\EnterpriseMVVM.DesktopClient.pdb
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\bin\Debug\EnterpriseMVVM.Windows.pdb
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\bin\Debug\EnterpriseMVVM.Windows.Test.pdb
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\obj\Debug\EnterpriseMVVM.DesktopClient.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\obj\Debug\EnterpriseMVVM.DesktopClient.Tests.dll
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.DesktopClient.Tests\obj\Debug\EnterpriseMVVM.DesktopClient.Tests.pdb

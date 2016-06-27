@@ -1,0 +1,14 @@
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\bin\Debug\EnterpriseMVVM.Data.Tests.dll.config
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\bin\Debug\EnterpriseMVVM.Data.Tests.dll
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\bin\Debug\EnterpriseMVVM.Data.Tests.pdb
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\bin\Debug\EnterpriseMVVM.Data.dll
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\bin\Debug\EnterpriseMVVM.Data.pdb
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\obj\Debug\EnterpriseMVVM.Data.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\obj\Debug\EnterpriseMVVM.Data.Tests.dll
+C:\Users\Van\Desktop\C# WPF projects\EnterpriseMVVM\Tests\EnterpriseMVVM.Data.Tests\obj\Debug\EnterpriseMVVM.Data.Tests.pdb

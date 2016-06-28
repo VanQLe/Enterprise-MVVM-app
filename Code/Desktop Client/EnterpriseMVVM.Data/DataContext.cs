@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace EnterpriseMVVM.Data
 {
-    public class DomainContext: DbContext
+    public class DataContext: DbContext
     {
 
-        public DomainContext(): base("Default")//look for connection string "Default" from the base constructor
+        public DataContext(): base("Default")//look for connection string "Default" from the base constructor
         {
         }
         public DbSet<Customer> Customers { get; set; }

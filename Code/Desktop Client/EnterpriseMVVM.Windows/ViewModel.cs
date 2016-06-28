@@ -11,22 +11,30 @@ namespace EnterpriseMVVM.Windows
     using System.Collections.ObjectModel;
     public abstract class ViewModel : ObservableObject,IDataErrorInfo
     {
+        /// <summary>
+        /// Gets the validation error for a property whose name matches the specified <see cref="columnName"/>.
+        /// </summary>
+        /// <param name="columnName">The name of the property to validate.</param>
+        /// <returns>Returns a validation error if there is one, otherwise returns null.</returns>
         public string this[string columnName]
         {
-            get
-            {
-                return OnValidate(columnName);
-            }
+            get { return OnValidate(columnName); }
         }
 
+        /// <summary>
+        /// Not supported.
+        /// </summary>
+        [Obsolete]
         public string Error
         {
-            get
-            {
-                throw new NotSupportedException();
-            }
+            get { throw new NotSupportedException(); }
         }
 
+        /// <summary>
+        /// Validates a property whose name matches the specified <see cref="propertyName"/>.
+        /// </summary>
+        /// <param name="propertyName">The name of the property to validate.</param>
+        /// <returns>Returns a validation error, if any, otherwise returns null.</returns>
         protected virtual string OnValidate(string propertyName)
         {
             var context = new ValidationContext(this)
@@ -35,11 +43,18 @@ namespace EnterpriseMVVM.Windows
             };
 
             var results = new Collection<ValidationResult>();
-            var isValid = Validator.TryValidateObject(this, context, results, true);
+            bool isValid = Validator.TryValidateObject(this, context, results, true);
 
-            return !isValid ? results[0].ErrorMessage : null;
+            if (!isValid)
+            {
+                ValidationResult result = results.SingleOrDefault(p =>
+                                                                  p.MemberNames.Any(memberName =>
+                                                                                    memberName == propertyName));
+
+                return result == null ? null : result.ErrorMessage;
+            }
+
+            return null;
         }
-
-
-    }//end class
-}//end namespace
+    }
+}

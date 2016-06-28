@@ -45,7 +45,7 @@ namespace EnterpriseMVVM.Windows.Tests.UnitTests
         public void IndexerPropertyValidatesPropertyNameWithInvalidValue()
         {
             var viewModel = new StubViewModel();
-            Assert.IsNotNull(viewModel["RequiredProperty"]);
+            Assert.IsNull(viewModel["RequiredProperty"]);
         }
 
         [TestMethod]
@@ -59,15 +59,26 @@ namespace EnterpriseMVVM.Windows.Tests.UnitTests
             Assert.IsNull(viewModel["RequiredProperty"]);
         }
 
+        [TestMethod]
+        public void IndexerReturnErrorMessageForRequestedInvalidProperty()
+        {
+            var viewModel = new StubViewModel
+            {
+                Requiredproperty = null,
+                SomeOtherProperty = null
 
+            };
+            var msg = viewModel["SomeOtherProperty"];
+            Assert.AreEqual("The SomeOtherProperty field is required.", msg);
+        }
 
         class StubViewModel : ViewModel
         {
             [Required]
-            public string Requiredproperty
-            {
-                get; set;
-            }
+            public string Requiredproperty { get; set; }
+            
+            [Required]
+            public string SomeOtherProperty { get; set; }
         }
 
 
